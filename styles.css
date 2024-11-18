@@ -16,14 +16,21 @@ header {
 }
 
 #main-title {
-    font-size: 48px;
+    font-size: 72px; /* Increase the font size */
     opacity: 0; /* Start hidden for fade-in effect */
-    transition: opacity 1s ease;
+    transition: opacity 2s ease; /* Slow down the fade-in effect */
 }
 
 p {
     margin-top: 20px;
     font-size: 18px;
+}
+
+.page-break {
+    border: none;
+    height: 2px; /* Height of the page break */
+    background-color: #ccc; /* Color of the page break */
+    margin: 40px 0; /* Spacing around the page break */
 }
 
 .events {
